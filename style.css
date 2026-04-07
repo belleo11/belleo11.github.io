@@ -1,15 +1,15 @@
 /* ── VARIABLES ── */
 :root {
-  --pink:    #e8689a;
-  --purple:  #9b59b6;
-  --blue:    #4a90d9;
-  --red:     #c0392b;
-  --green:   #2ecc71;
-  --dark:    #1a1a2e;
-  --darker:  #0f0f1a;
-  --card-bg: #1e1e35;
-  --text:    #f0eaf8;
-  --muted:   #a89fc0;
+  --pink:    #e8a0b4;
+  --pink2:   #d4687e;
+  --green:   #4a7c59;
+  --white:   #f5f0eb;
+  --petal:   #f2c4ce;
+  --dark:    #1a2e1a;
+  --darker:  #121f12;
+  --card-bg: #1e2d1e;
+  --text:    #f5f0eb;
+  --muted:   #8aab8a;
   --accent:  var(--pink);
 }
 
@@ -30,9 +30,9 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(15, 15, 26, 0.85);
+  background: rgba(18, 31, 18, 0.88);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(232, 104, 154, 0.2);
+  border-bottom: 1px solid rgba(232, 160, 180, 0.2);
 }
 
 nav {
@@ -47,7 +47,7 @@ nav {
 .logo {
   font-family: 'Playfair Display', serif;
   font-size: 1.4rem;
-  background: linear-gradient(90deg, var(--pink), var(--purple));
+  background: linear-gradient(90deg, var(--pink), var(--petal));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -73,11 +73,11 @@ nav ul a:hover { color: var(--pink); }
 .hero {
   text-align: center;
   padding: 6rem 2rem 4rem;
-  background: radial-gradient(ellipse at 50% 0%, rgba(155, 89, 182, 0.2) 0%, transparent 70%);
+  background: radial-gradient(ellipse at 50% 0%, rgba(74, 124, 89, 0.25) 0%, transparent 70%);
 }
 
 .hero-label {
-  color: var(--purple);
+  color: var(--pink);
   letter-spacing: 0.2em;
   font-size: 0.85rem;
   text-transform: uppercase;
@@ -93,7 +93,7 @@ nav ul a:hover { color: var(--pink); }
 
 .hero h1 em {
   font-style: italic;
-  background: linear-gradient(90deg, var(--pink), var(--purple), var(--blue));
+  background: linear-gradient(90deg, var(--pink), var(--petal), var(--muted));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -129,7 +129,7 @@ nav ul a:hover { color: var(--pink); }
 /* ── POST CARD ── */
 .post-card {
   background: var(--card-bg);
-  border: 1px solid rgba(232, 104, 154, 0.15);
+  border: 1px solid rgba(232, 160, 180, 0.15);
   border-radius: 16px;
   padding: 1.8rem;
   transition: transform 0.2s, border-color 0.2s;
@@ -142,7 +142,7 @@ nav ul a:hover { color: var(--pink); }
 
 .post-tag {
   display: inline-block;
-  background: linear-gradient(90deg, var(--purple), var(--blue));
+  background: linear-gradient(90deg, var(--pink2), var(--pink));
   color: white;
   font-size: 0.72rem;
   font-weight: 700;
@@ -203,8 +203,8 @@ nav ul a:hover { color: var(--pink); }
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--purple);
-  border-left: 3px solid var(--pink);
+  color: var(--pink);
+  border-left: 3px solid var(--pink2);
   padding-left: 0.75rem;
   margin-bottom: 1rem;
 }
@@ -221,7 +221,7 @@ nav ul a:hover { color: var(--pink); }
   justify-content: space-between;
   align-items: center;
   background: var(--card-bg);
-  border: 1px solid rgba(232, 104, 154, 0.1);
+  border: 1px solid rgba(232, 160, 180, 0.1);
   border-radius: 10px;
   padding: 0.9rem 1.2rem;
   transition: border-color 0.2s, transform 0.2s;
@@ -260,7 +260,7 @@ nav ul a:hover { color: var(--pink); }
 .gallery-item {
   border-radius: 12px;
   overflow: hidden;
-  border: 1px solid rgba(232, 104, 154, 0.15);
+  border: 1px solid rgba(232, 160, 180, 0.15);
   background: var(--card-bg);
   transition: transform 0.2s, border-color 0.2s;
 }
@@ -319,7 +319,7 @@ nav ul a:hover { color: var(--pink); }
   font-size: 1.1rem;
   font-weight: 700;
   margin: 2rem 0 0.75rem;
-  color: var(--purple);
+  color: var(--petal);
 }
 
 .article-body p { margin-bottom: 1.2rem; color: var(--text); }
@@ -334,18 +334,18 @@ nav ul a:hover { color: var(--pink); }
 
 .article-body .chem-formula {
   background: var(--card-bg);
-  border-left: 3px solid var(--purple);
+  border-left: 3px solid var(--green);
   border-radius: 0 8px 8px 0;
   padding: 1rem 1.2rem;
   font-family: monospace;
   font-size: 1rem;
   margin: 1.5rem 0;
-  color: var(--green);
+  color: var(--muted);
 }
 
 .article-body .fun-fact {
-  background: linear-gradient(135deg, rgba(155,89,182,0.15), rgba(74,144,217,0.15));
-  border: 1px solid rgba(155, 89, 182, 0.3);
+  background: linear-gradient(135deg, rgba(74,124,89,0.2), rgba(232,160,180,0.15));
+  border: 1px solid rgba(232, 160, 180, 0.3);
   border-radius: 12px;
   padding: 1.2rem 1.5rem;
   margin: 1.5rem 0;
@@ -358,7 +358,7 @@ nav ul a:hover { color: var(--pink); }
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--purple);
+  color: var(--pink);
   margin-bottom: 0.5rem;
 }
 
@@ -377,7 +377,7 @@ footer {
   padding: 2.5rem;
   color: var(--muted);
   font-size: 0.85rem;
-  border-top: 1px solid rgba(232, 104, 154, 0.1);
+  border-top: 1px solid rgba(232, 160, 180, 0.1);
 }
 
 /* ── RESPONSIVE ── */
