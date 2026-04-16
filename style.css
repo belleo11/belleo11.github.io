@@ -69,7 +69,7 @@ nav ul a {
 
 nav ul a:hover { color: var(--pink); }
 
-/* ── HERO ────────────────────────────────────────────────────────────────────────────────────── */
+/* ── HERO ── */
 .hero {
   text-align: center;
   padding: 6rem 2rem 4rem;
@@ -107,10 +107,43 @@ nav ul a:hover { color: var(--pink); }
   margin: 0 auto;
 }
 
-/* ── BLOG INTRO ────────────────────────────────────────────────────────────────────────────────────── */
+/* ── CLOSING SECTION (PHOTO BAR) ── */
+.closing-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* ── PHOTO BAR ── */
+.photo-bar {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.photo-slot {
+  flex: 1;
+  height: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.photo-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── BLOG INTRO ── */
 .intro-section {
   max-width: 1100px;
-  margin: 0 auto 2rem;
+  margin: 2rem auto 2rem;
   padding: 0 2rem;
 }
 
@@ -134,11 +167,69 @@ nav ul a:hover { color: var(--pink); }
   font-size: 0.95rem;
 }
 
-/* ── POSTS SECTION ──────────────────────────────────────────────────────────────────────────────────────── */
+/* ── FEATURED DISCOVERY ── */
+.discovery-section {
+  max-width: 1100px;
+  margin: 0 auto 1rem;
+  padding: 0 2rem;
+}
+
+.discovery-inner {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--card-bg);
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.discovery-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pink);
+  white-space: nowrap;
+}
+
+.discovery-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.discovery-desc {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.discovery-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.discovery-title:hover {
+  color: var(--pink);
+  text-decoration: underline;
+}
+
+/* ── CLOSING WRAPPER (Latest Entries gradient background) ── */
+.closing-wrapper {
+  background: linear-gradient(to bottom, var(--bg) 0%, #fde8e8 100%);
+  padding: 2rem 2rem 3rem;
+  margin-top: 0;
+}
+
+/* ── POSTS SECTION ── */
 .posts-section {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 2rem 0;
 }
 
 .posts-section h2 {
@@ -154,7 +245,7 @@ nav ul a:hover { color: var(--pink); }
   gap: 1.5rem;
 }
 
-/* ── POST CARD ──────────────────────────────────────────────────────────────────────────────────────────── */
+/* ── POST CARD ── */
 .post-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
@@ -209,98 +300,7 @@ nav ul a:hover { color: var(--pink); }
 
 .read-more:hover { letter-spacing: 0.12em; }
 
-/* ── FEATURED DISCOVERY ──────────────────────────────────────────────────────────────────────────────────────────────── */
-.discovery-section {
-  max-width: 1100px;
-  margin: 0 auto 2rem;
-  padding: 0 2rem;
-}
-
-.discovery-inner {
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  background: var(--card-bg);
-  padding: 1.5rem 2rem;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.discovery-label {
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--pink);
-  white-space: nowrap;
-}
-
-.discovery-content {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
-.discovery-desc {
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin: 0;
-}
-
-.discovery-title {
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--dark);
-  text-decoration: none;
-}
-
-.discovery-title:hover {
-  color: var(--pink);
-  text-decoration: underline;
-}
-
-/* ── CLOSING SECTION (PHOTO BAR + ABOUT) ────────────────────────────────────────────────────────────────────────────── */
-
-/* full width pink background */
-.closing-wrapper {
-  background: linear-gradient(to bottom, #f5f5f0, #fde8e8);
-  padding: 3rem 2rem;
-}
-
-/* content stays centred and constrained */
-.closing-section {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-/* ── PHOTO BAR ───────────────────────────────────────────────────────────────────────────────────────────────────────── */
-.photo-bar {
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-}
-
-.photo-slot {
-  flex: 1;
-  height: 260px;
-  border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid var(--border);
-  background: var(--bg);
-}
-
-.photo-slot img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* ── ABOUT MINI ──────────────────────────────────────────────────────────────────────────────────────────── */
+/* ── ABOUT MINI ── */
 .about-mini {
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -308,9 +308,7 @@ nav ul a:hover { color: var(--pink); }
   padding: 2rem 2.5rem;
 }
 
-.about-mini .hero-label {
-  margin-bottom: 0.75rem;
-}
+.about-mini .hero-label { margin-bottom: 0.75rem; }
 
 .about-mini p {
   color: var(--muted);
@@ -319,11 +317,9 @@ nav ul a:hover { color: var(--pink); }
   margin-bottom: 0.75rem;
 }
 
-.about-mini p:last-child {
-  margin-bottom: 0;
-}
+.about-mini p:last-child { margin-bottom: 0; }
 
-/* ── CATEGORIES PAGE ────────────────────────────────────────────────────────────────────────────────────────────── */
+/* ── CATEGORIES PAGE ── */
 .categories-section {
   max-width: 1100px;
   margin: 0 auto;
@@ -391,7 +387,7 @@ nav ul a:hover { color: var(--pink); }
   line-height: 1.6;
 }
 
-/* ── GALLERY PAGE ────────────────────────────────────────────────────────────────────────────────────────────────── */
+/* ── GALLERY PAGE ── */
 .gallery-section {
   max-width: 1100px;
   margin: 0 auto;
@@ -444,7 +440,7 @@ nav ul a:hover { color: var(--pink); }
   color: var(--muted);
 }
 
-/* ── ARTICLE / POST PAGE ──────────────────────────────────────────────────────────────────────────────────────────────── */
+/* ── ARTICLE / POST PAGE ── */
 .article-container {
   max-width: 750px;
   margin: 0 auto;
@@ -533,7 +529,7 @@ nav ul a:hover { color: var(--pink); }
 
 .back-link:hover { text-decoration: underline; }
 
-/* ── FOOTER ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── */
+/* ── FOOTER ── */
 footer {
   text-align: center;
   padding: 2.5rem;
@@ -543,7 +539,7 @@ footer {
   background: var(--card-bg);
 }
 
-/* ── RESPONSIVE ────────────────────────────────────────────────────────────────────────────────────────────────────────────── */
+/* ── RESPONSIVE ── */
 @media (max-width: 700px) {
   nav ul { gap: 1rem; }
   .hero { padding: 4rem 1.5rem 3rem; }
