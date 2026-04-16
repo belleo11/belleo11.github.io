@@ -264,7 +264,6 @@ nav ul a:hover { color: var(--pink); }
 .closing-section {
   max-width: 1100px;
   margin: 0 auto 3rem;
-  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
