@@ -107,6 +107,34 @@ nav ul a:hover { color: var(--pink); }
   margin: 0 auto;
 }
 
+/* ── BLOG INTRO ── */
+.intro-section {
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+  padding: 0 2rem;
+}
+
+.intro-inner {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--card-bg);
+  padding: 2.5rem;
+  max-width: 750px;
+}
+
+.intro-inner h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+.intro-inner p {
+  color: var(--muted);
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+
 /* ── POSTS SECTION ── */
 .posts-section {
   max-width: 1100px;
@@ -181,6 +209,113 @@ nav ul a:hover { color: var(--pink); }
 }
 
 .read-more:hover { letter-spacing: 0.12em; }
+
+/* ── FEATURED DISCOVERY ── */
+.discovery-section {
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+  padding: 0 2rem;
+}
+
+.discovery-inner {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--card-bg);
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.discovery-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pink);
+  white-space: nowrap;
+}
+
+.discovery-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.discovery-desc {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.discovery-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.discovery-title:hover {
+  color: var(--pink);
+  text-decoration: underline;
+}
+
+/* ── CLOSING SECTION (PHOTO BAR + ABOUT) ── */
+.closing-section {
+  max-width: 1100px;
+  margin: 0 auto 3rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* ── PHOTO BAR ── */
+.photo-bar {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.photo-slot {
+  flex: 1;
+  height: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.photo-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── ABOUT MINI ── */
+.about-mini {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--card-bg);
+  padding: 2rem 2.5rem;
+}
+
+.about-mini .hero-label {
+  margin-bottom: 0.75rem;
+}
+
+.about-mini p {
+  color: var(--muted);
+  line-height: 1.8;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-mini p:last-child {
+  margin-bottom: 0;
+}
 
 /* ── CATEGORIES PAGE ── */
 .categories-section {
@@ -403,72 +538,21 @@ footer {
 }
 
 /* ── RESPONSIVE ── */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   nav ul { gap: 1rem; }
   .hero { padding: 4rem 1.5rem 3rem; }
-}
 
-/* ── ABOUT ── */
-.about-section {
-  padding: 3rem 2rem;
-  max-width: 1100px;
-  margin: 0 auto 2rem;
-}
-
-.about-inner {
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  background: var(--card-bg);
-  padding: 2.5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  gap: 2.5rem;
-}
-
-.about-text {
-  flex: 1;
-  min-width: 0;
-}
-
-.about-text h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  color: var(--dark);
-}
-
-.about-text p {
-  color: var(--muted);
-  margin-bottom: 0.75rem;
-  line-height: 1.7;
-}
-
-.about-img {
-  flex-shrink: 0;
-  width: 220px;
-  min-height: 280px;
-  border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid var(--border);
-  background: var(--bg);
-}
-
-.about-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-@media (max-width: 700px) {
-  .about-inner {
+  .photo-bar {
     flex-direction: column;
   }
 
-  .about-img {
-    width: 100%;
-    height: 220px;
-    min-height: unset;
+  .photo-slot {
+    height: 200px;
+  }
+
+  .discovery-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
   }
 }
