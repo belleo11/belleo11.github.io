@@ -268,9 +268,11 @@ nav ul a:hover { color: var(--pink); }
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  background: linear-gradient(to bottom, #f5f5f0, #fde8e8);
+  padding: 3rem 2rem;
 }
 
-/* ── PHOTO BAR ── */
+/* ── PHOTO BAR ───────────────────────────────────────────────────────────────────────────────────────────────────────── */
 .photo-bar {
   display: flex;
   gap: 1rem;
