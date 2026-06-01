@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xenon — A Stranger in Our Atmosphere</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="../index.html" class="logo">⚗️ Belle's Chem Journal</a>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../categories.html">Library</a></li>
+        <li><a href="../gallery.html">Art Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="article-container">
+
+      <div class="article-header">
+        <div class="post-tag">Noble Gases</div>
+        <h1>Xenon — The Stranger That Fuels Space and Heals Minds</h1>
+        <div class="article-meta">
+          <span>By Belle</span>
+          <span>Noble Gases · Physical Chemistry</span>
+        </div>
+      </div>
+
+      <!-- PROPERTIES BOX -->
+      <div class="chem-formula">
+        <strong>Xe &nbsp;·&nbsp; Atomic number: 54</strong><br/>
+        Molecular weight: 131.293 g/mol<br/>
+        Melting point: −111.75°C<br/>
+        Boiling point: −108.1°C<br/>
+        Physical properties: colourless, odourless
+      </div>
+
+      <div class="article-body">
+
+        <p>
+          I'm one of the 60 million people who've recently watched and fell in love with the new 
+          sci-fi movie <em>Project Hail Mary</em>. If you're also part of this club, you'll find 
+          this article especially intriguing — it delves into the science behind the material upon 
+          which the beloved alien Rocky's civilization is built: xenon. Xenon is an extraordinary 
+          element, shaping medicine and space exploration right here on Earth.
+        </p>
+
+        <p>
+          First isolated in 1898 by Scottish chemist William Ramsay and English chemist Morris 
+          Travers, it was the first noble gas to ever be discovered by humans <sup>[1]</sup>.
+        </p>
+
+        <h2>But What Is a Noble Gas?</h2>
+        <p>
+          Noble gases are a family of elements containing a full outer shell of valence electrons. 
+          This makes them inert — chemically unreactive. The term <em>noble</em> is a deliberate 
+          analogy for this property: like aristocrats historically being above interactions with 
+          other social classes, noble gases remain apart from the chemical reactions around them.
+        </p>
+
+        <div class="fun-fact">
+          Xenon gets its name from the Greek word <em>xénos</em>, meaning <em>stranger</em> or 
+          <em>alien</em>. Its name reflects its rarity — xenon is the rarest stable element on 
+          Earth, found in trace amounts in the air we breathe (less than 1 part per million) <sup>[2]</sup>.
+        </div>
+
+        <h2>Xenon in Outer Space</h2>
+        <p>
+          Xenon's most exciting real-world role is in space propulsion. NASA's Dawn spacecraft 
+          used xenon as fuel for its ion propulsion system, enabling it to become the first craft 
+          ever to orbit two different bodies in our solar system <sup>[3]</sup>.
+        </p>
+
+        <h3>How It Works</h3>
+        <p>
+          Neutral xenon atoms are bombarded with high-energy electrons, causing ionisation — an 
+          electron is knocked off the xenon atom, creating a positive ion. These ions are then 
+          accelerated through a series of electrodes and propelled outward at high velocity, 
+          producing the thrust force that allows the craft to move through space <sup>[4]</sup>.
+        </p>
+
+        <h3>Why Xenon Over Other Fuels?</h3>
+        <p>Xenon offers the best combination of <sup>[5]</sup>:</p>
+        <ul>
+          <li><strong>Thrust force per atom</strong> — thanks to the heaviness of xenon atoms</li>
+          <li><strong>Low ionisation potential</strong></li>
+          <li><strong>High storage density</strong> — xenon is highly polarisable, meaning its atoms can be compressed together, taking up less storage space</li>
+          <li><strong>Inertness</strong> — much safer on spacecraft, with no explosion risk</li>
+        </ul>
+
+        <h2>Xenon on Earth: Medicine</h2>
+        <p>Xenon is used in medicine in several ways <sup>[1]</sup>:</p>
+        <ul>
+          <li>Clinical imaging</li>
+          <li>Anaesthesia</li>
+          <li>Neuroprotection</li>
+        </ul>
+
+        <p>
+          As an anaesthetic, xenon inhibits glutamate from binding to N-methyl-D-aspartate (NMDA) 
+          receptors in the brain, preventing stimulation of the nervous system and inducing a state 
+          of unconsciousness. Xenon anaesthetics have a stronger analgesic (pain-relieving) effect 
+          than commonly-used nitrous oxide — by a factor of about 1.5 <sup>[1]</sup> — and they 
+          don't pose an addiction risk the way opioids and nitrous oxide do.
+        </p>
+
+        <p>
+          So why aren't they more widely used? Cost. Xenon is rare and must be extracted from 
+          liquefied air, which is expensive. Until this process is further economised, we have to 
+          settle for the current common anaesthetics.
+        </p>
+
+        <p>
+          There's also emerging research showing xenon's potential as a treatment for neurological 
+          conditions including Alzheimer's disease, epilepsy, and OCD <sup>[1,6]</sup>. One 
+          clinical trial in the United States, set to complete in 2027, is evaluating xenon's 
+          efficacy in treating a type of grand mal seizure <sup>[7]</sup>. We're still uncovering 
+          xenon's potential.
+        </p>
+
+        <div class="fun-fact">
+          If you're interested in exploring emerging xenon research, 
+          <a href="https://clinicaltrials.gov" target="_blank" style="color: var(--green); font-weight: 600;">ClinicalTrials.gov</a> 
+          is a great resource — you can browse ongoing clinical trials from around the world, 
+          run by the United States' National Library of Medicine.
+        </div>
+
+        <h2>Back to Project Hail Mary</h2>
+        <p>
+          In <em>Project Hail Mary</em>, xenon is just one element in Rocky's xenonite compound. 
+          Humans have yet to find a way to make xenon into a malleable building material — so 
+          faraway alien civilisations may still be ahead of us in this sector. If you're interested 
+          in exploring more of the science in the film, check out NASA's in-depth article:
+          <a href="https://science.nasa.gov/the-science-behind-project-hail-mary/" target="_blank" style="color: var(--green); font-weight: 600;">
+            The Science Behind Project Hail Mary →
+          </a>
+        </p>
+
+        <!-- REFERENCES -->
+        <h2>References</h2>
+        <ol style="color: var(--muted); font-size: 0.85rem; line-height: 1.9; padding-left: 1.5rem;">
+          <li>Bajaj, T., Cascella, M., & Borger, J. (2022, September 12). Xenon. <em>StatPearls Publishing.</em> <a href="https://www.ncbi.nlm.nih.gov/books/NBK540997/" target="_blank" style="color: var(--green);">https://www.ncbi.nlm.nih.gov/books/NBK540997/</a></li>
+          <li>Technological requirements for terraforming Mars | Joint Propulsion Conferences. (2022). <a href="https://doi.org/10.2514/MJPC93" target="_blank" style="color: var(--green);">https://doi.org/10.2514/MJPC93</a></li>
+          <li>NASA. (n.d.). Ion Propulsion - NASA Science. <a href="https://science.nasa.gov/mission/dawn/technology/ion-propulsion/" target="_blank" style="color: var(--green);">https://science.nasa.gov/mission/dawn/technology/ion-propulsion/</a></li>
+          <li>David, L. C., Varghese, J. T., & Nadarajan Assari Syamala, S. R. (2020). Ion Propulsion Technology: NASA's Evolutionary Xenon Thruster (NEXT). <em>2020 ASET.</em> <a href="https://doi.org/10.1109/ASET48392.2020.9118370" target="_blank" style="color: var(--green);">https://doi.org/10.1109/ASET48392.2020.9118370</a></li>
+          <li>Technological requirements for terraforming Mars | Joint Propulsion Conferences. (2022). <a href="https://doi.org/10.2514/MJPC93" target="_blank" style="color: var(--green);">https://doi.org/10.2514/MJPC93</a></li>
+          <li>Maze, M., & Laitio, T. (2019). Neuroprotective Properties of Xenon. <em>Molecular Neurobiology, 57</em>(1), 118–124. <a href="https://doi.org/10.1007/s12035-019-01761-z" target="_blank" style="color: var(--green);">https://doi.org/10.1007/s12035-019-01761-z</a></li>
+          <li>ClinicalTrials.gov. (2026). <a href="https://clinicaltrials.gov/study/NCT05667142" target="_blank" style="color: var(--green);">https://clinicaltrials.gov/study/NCT05667142</a></li>
+        </ol>
+
+        <a href="../index.html" class="back-link">← Back to Journal</a>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 belleo · built with curiosity ⚗️</p>
+  </footer>
+
+</body>
+</html>
